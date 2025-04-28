@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario y Tabla</title>
+</head>
+<body>
+
+  <h1>Formulario de Contacto</h1>
+
+  <form action="procesar.php" method="post">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <hr>
+
+  <h2>Ejemplo de Tabla de Usuarios</h2>
+
+  <table border="1">
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Ciudad</th>
+    </tr>
+    <tr>
+      <td>María</td>
+      <td>25</td>
+      <td>Madrid</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td>30</td>
+      <td>Barcelona</td>
+    </tr>
+    <tr>
+      <td>Ana</td>
+      <td>22</td>
+      <td>Valencia</td>
+    </tr>
+  </table>
+
+</body>
+</html>
